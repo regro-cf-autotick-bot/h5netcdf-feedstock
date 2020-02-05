@@ -15,11 +15,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python >= 3
     - pip
     - h5py
   run:
-    - python
+    - python >= 3
     - h5py
 
 test:
@@ -38,3 +38,4 @@ extra:
     - jjhelmus
     - ocefpaf
     - shoyer
+    - kmuehlbauer
